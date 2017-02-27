@@ -1,0 +1,54 @@
+h1 {
+  color: rgb(2, 132, 130);
+}
+h2 {
+  color: #ffd700;
+}
+body {
+  text-align: center;
+}
+.board {
+  height: 50%;
+  width: 50%;
+  display: inline-block;
+}
+.card {
+  height: 200px;
+  width: 150px;
+  background-color: #ffff00;
+  border: solid 1px #000000;
+  border-radius: 10px;
+  display: inline-block;
+/*  float: left;*/
+  margin: 8%;
+}
+.footerName {
+  color: rgba(34,235,121,0.8);
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.1); 
+  font-weight: 800;
+}
+nav {
+  background: #808080;
+}
+nav a {
+  color: #ffffff;
+  background-color: #ffbf00;
+  text-decoration: none;
+  padding: 35px;
+  display: block;
+  float: left;
+}
+a:hover {
+  background-color: #ee5f3c;
+}
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+}
+footer {
+  background-color: #808080;
+}
